@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="fr">
 	<header>
-	<link rel="stylesheet" href="../Main.css" type="text/css" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../Styles/Main.css" type="text/css" />
 		<nav class="menu-nav">
 		<ul>
 			<li class="btn"> <a href="../index.HTML">Accueil</a> </li>
@@ -12,4 +13,15 @@
 		</ul>
 		</nav>
 	</header>
+	<body class="formulaire">
+			<form action="MAILTO:servicespartage1@gmail.com" method="POST" enctype="text/plain">
+			Nom:
+			<input type="text" name="user" placeholder="Entrez votre nom" maxlength="10" required/> <br>
+			E-mail:
+			<input type="email" name="mail" placeholder="Entrez votre E-mail" type="email" required> <br>
+			Message:
+			<textarea placeholder="Entrez votre message" required></textarea> <br>
+			<input type="submit"><input type="reset">
+			</form>
+	</body>
 </html>

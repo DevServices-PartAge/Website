@@ -27,8 +27,67 @@ nav.menu-nav{
 	left: 0;
 	right: 0;
 	height: 70px;
+	text-align: left;
 }
 
 div.Contenu{
 	margin-top: 75px;
+}
+
+body.Error {
+	margin-top: 85px;
+	text-align: center;
+}
+
+body.Error img{
+	margin-right: 25px;
+	float: center;
+}
+
+body.formulaire {
+	margin-top: 80px;
+}
+
+form input[type=text], form input[type=email] {
+	margin-bottom: 15px;
+	border-style:inset;
+	border-radius: 5px;
+}
+
+form input:hover:invalid{
+	border-color: red;
+	background-image: "requis.png";
+	transition: all 0.5s ease;
+}
+
+form input[type=submit]:hover {
+	background-color: rgb(113, 189, 0);
+	color: white;
+	border-radius: 5px;
+	transition: 0.5s
+}
+
+form input[type=submit] {
+	background-color: white;
+	color: rgb(113, 189, 0);
+	border-radius: 5px;
+	transition: 0.5s
+}
+
+form input[type=reset]:hover {
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	transition: 0.5s
+}
+
+form input[type=reset] {
+	background-color:white;
+	color: red;
+	border-radius: 5px;
+	transition: 0.5s
+}
+
+form textarea:hover:invalid{
+	border-color: red;
 }
