@@ -548,7 +548,14 @@ body.formulaire {
 		}
 
 		.index {
-			background: linear-gradient(white,black) no-repeat;
-			padding-bottom: 35%;
+			padding-top: 0px;
+		}
 
+		.transition{
+			background: linear-gradient(white,rgb(73, 73, 73)) no-repeat;
+			padding: 0.1s;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
 		}
