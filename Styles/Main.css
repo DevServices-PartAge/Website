@@ -548,6 +548,7 @@ body.formulaire {
 		}
 
 		.index {
-			background: linear-gradient(white,black);
-			
+			background: linear-gradient(white,black) no-repeat;
+			padding-bottom: 100%;
+
 		}
