@@ -557,5 +557,14 @@ body.formulaire {
 			position: absolute;
 			left: 0;
 			right: 0;
+			bottom: 65px;
+		}
+
+		.Copyright{
+			position: absolute;
+			right:0;
+			left: 0;
 			bottom: 0;
+			background-color: rgb(73, 73, 73);
+			list-style: none;
 		}
