@@ -1,7 +1,7 @@
 nav.menu-nav ul li.btn a{
 	text-decoration: none;
 	color: white;
-	background-color: light_blue;
+	background-color: #0090F3;
 	padding: 10px;
 	font-size: 30px;
 	transition: 0.3s;
@@ -14,7 +14,7 @@ nav.menu-nav ul li.btn {
 
 nav.menu-nav ul li.btn:hover a{
 	text-decoration: none;
-	color: light_blue;
+	color: #0090F3;
 	background-color: white;
 	padding: 10px;
 	transition: 0.3s;
