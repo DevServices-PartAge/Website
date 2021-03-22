@@ -554,14 +554,14 @@ body.formulaire {
 		.transition{
 			background: linear-gradient(white,rgb(73, 73, 73)) no-repeat;
 			padding: 0.1;
-			position: bottom;
+			position: relative;
 			left: 0;
 			right: 0;
 			bottom: 80px;
 		}
 
 		.Copyright{
-			position: bottom.;
+			position: relative;
 			right:0;
 			left: 0;
 			bottom: 0;
@@ -571,5 +571,4 @@ body.formulaire {
 
 		.logo {
 			float: right;
-			width: 20%;
 }
