@@ -1,7 +1,7 @@
 nav.menu-nav ul li.btn a{
 	text-decoration: none;
 	color: white;
-	background-color: red;
+	background-color: light_blue;
 	padding: 10px;
 	font-size: 30px;
 	transition: 0.3s;
@@ -14,7 +14,7 @@ nav.menu-nav ul li.btn {
 
 nav.menu-nav ul li.btn:hover a{
 	text-decoration: none;
-	color: red;
+	color: light_blue;
 	background-color: white;
 	padding: 10px;
 	transition: 0.3s;
@@ -568,3 +568,8 @@ body.formulaire {
 			background-color: rgb(73, 73, 73);
 			list-style: none;
 		}
+
+		.logo {
+			float: right;
+			width: 20%;
+}
