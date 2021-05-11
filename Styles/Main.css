@@ -1,4 +1,5 @@
 nav.menu-nav ul li.btn a{
+	top: 5px;
 	text-decoration: none;
 	color: white;
 	background-color: #0090F3;
@@ -9,7 +10,12 @@ nav.menu-nav ul li.btn a{
 }
 
 nav.menu-nav ul li.btn {
-	display: inline-block
+	display: inline-block;
+}
+nav.menu-nav ul li.nav-img img{
+	position: absolute;
+	right: 0;
+	top: 0px;
 }
 
 nav.menu-nav ul li.btn:hover a{
@@ -26,12 +32,16 @@ nav.menu-nav{
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 70px;
+	height: 7%;
 	text-align: left;
 }
 
 div.Contenu{
 	margin-top: 75px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image: url("../assets/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 body.Error {
@@ -557,7 +567,7 @@ body.formulaire {
 			position: absolute;
 			left: 0;
 			right: 0;
-			bottom: 80px;
+			bottom: 75px;
 		}
 
 		.Copyright{
