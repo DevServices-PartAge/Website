@@ -16,6 +16,7 @@ nav.menu-nav ul li.nav-img img{
 	position: absolute;
 	right: 0;
 	top: 0px;
+	list-style: none;
 }
 
 nav.menu-nav ul li.btn:hover a{
