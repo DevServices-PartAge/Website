@@ -8,6 +8,9 @@ nav.menu-nav ul li.btn a{
 	transition: 0.3s;
 	margin-left: 10px;
 }
+.contenu {
+	margin-top: 75px;
+}
 
 nav.menu-nav ul li.btn {
 	display: inline-block;
