@@ -54,6 +54,9 @@ body.Error img{
 	margin-right: 25px;
 	float: center;
 }
+nav.menu-nav ul {
+	list-style: none;
+}
 
 body.formulaire {
 	margin-top: 80px;
